@@ -2,7 +2,7 @@
 window.Config = {
 
   // 站点名
-  SiteName: 'Uptime Status',
+  SiteName: '站点状态 - 水儿の服务',
 
   // 站点链接
   SiteUrl: '/',
@@ -10,10 +10,7 @@ window.Config = {
   // UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only 两只 Api Key
   ApiKeys: [
-    'm784488775-dd1ad84b209c05f8e185c33e',
-    'm784490063-7b5da437e7f1e0d67613714d',
-    'm784497419-de55aa09902ccb3ab22d548a',
-    'm784496436-71a4bf7b1e3bdf7756be131b',
+    'ur852484-9a5b49617cb87028b0123141'
   ],
 
   // 是否显示监测站点的链接
@@ -27,12 +24,16 @@ window.Config = {
   // 导航栏菜单
   Navi: [
     {
-      text: 'Homepage',
-      url: 'https://status.org.cn/'
+      text: '博客',
+      url: 'https://hydrostic.com/'
     },
     {
-      text: 'GitHub',
-      url: 'https://github.com/yb/uptime-status'
+      text: '云盘',
+      url: 'https://pan.hydrostic.com/'
+    },
+    {
+      text: '工具',
+      url: 'https://tool.hydrostic.com:1315/'
     }
   ]
 };
